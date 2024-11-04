@@ -2,7 +2,7 @@ FROM ubuntu:22.04
 
 LABEL MAINTAINER Kerron Gordon <edawarekaro@gmail.com>
 
-ENV VERSION=26.0.00
+ENV VERSION=27.0.01
 ENV GIBBON_URL="https://github.com/GibbonEdu/core/releases/download/v${VERSION}/GibbonEduCore-InstallBundle.tar.gz"
 ENV INSTALL_DIR="/var/www/gibbon.local/"
 
